@@ -1,8 +1,8 @@
-import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import ProdutoLista from './ProdutoLista';
+import React from 'react';
 import ProdutoForm from './ProdutoForm';
+import ProdutoLista from './ProdutoLista';
 
 const Stack = createStackNavigator();
 
